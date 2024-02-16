@@ -1,13 +1,10 @@
-# coe49402ea898376c8ad756a6
+# Password Generation tool
 
-Quick start:
+Aim of the project was to create a tool that generates two random passwords, given the length defined by the user and the type of characters (letter, numbers, symbols).
+Page built with HTML, CSS and Javascript.
 
-```
-$ npm install
-$ npm start
-````
+This project is part of the Frontend Career Path from Scrimba (https://scrimba.com/learn/frontend)
 
-Head over to https://vitejs.dev/ to learn more about using vite
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
