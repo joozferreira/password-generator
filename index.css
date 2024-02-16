@@ -12,7 +12,7 @@ body {
 /* Hero section of the document */
 #container {
     margin-top: 20px;
-    width: fit-content;
+    width: 480px;
     min-width: 350px;
     height: fit-content;
     padding: 20px;
@@ -74,8 +74,8 @@ hr {
 }
 
 .password {
-    padding: 4px 16px;
-    width: 40%;
+    padding: 4px 8px;
+    width: 45%;
     background: #273549;
     color: #55F991;
     text-align: center;
