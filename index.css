@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    height: 100%;
+    background: #1F2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hero section of the document */
+#container {
+    width: 75%;
+    min-width: 350px;
+    padding: 50px 30px;
+}
+
+h1 span {
+    color: #10B981;
+}
+
+#support {
+    color: #D5D4D8;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+
+/* Settings section */
+#settings {
+    display: flex;
+    gap: 20px;
+}
+
+label, input, select {
+    color: #D5D4D8;
+}
+
+input, select {
+    background: #2F3E53;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#pass-btn {
+    margin: 30px 0 35px 0;
+    background: #10B981;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #2F3E53;
+    margin-bottom: 35px;
+}
+
+/* Output section */
+#results {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.password {
+    padding: 4px 16px;
+    width: 40%;
+    background: #273549;
+    color: #55F991;
+    text-align: center;
+    height: 40px;
+    line-height: 32px;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion {
+    margin-left: auto;
+}
+
+.icon-hidden {
+    display: none;
+}
+
+.copy-icon {
+    height: 20px;
+    width: auto;
+    margin-left: auto;
+    filter: invert(92%) sepia(8%) saturate(74%) hue-rotate(214deg) brightness(95%) contrast(87%);
+}
+
+.copy-icon:hover {
+    filter: invert(99%) sepia(80%) saturate(510%) hue-rotate(303deg) brightness(200%) contrast(104%);
+    height: 25px;
+}
+
+.check-bright {
+    filter: invert(72%) sepia(78%) saturate(2003%) hue-rotate(50deg) brightness(200%) contrast(99%);
+}
+
+@media only screen and (max-width: 560px) {
+    #container {
+        padding: 10px;
+    }
+    
+    #settings, #results {
+        flex-direction: column;
+    }
+
+    .password {
+        width: 100%;
+    }
+}
