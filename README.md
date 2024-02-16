@@ -5,6 +5,8 @@ Page built with HTML, CSS and Javascript.
 
 Deployed with Netlify on: https://pw-gener8.netlify.app/
 
+SVG icons from: https://uxwing.com/
+
 This project is part of the Frontend Career Path from Scrimba (https://scrimba.com/learn/frontend)
 
 ## About Scrimba
