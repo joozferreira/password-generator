@@ -11,9 +11,15 @@ body {
 
 /* Hero section of the document */
 #container {
-    width: 75%;
+    margin-top: 20px;
+    width: fit-content;
     min-width: 350px;
-    padding: 50px 30px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 16px;
+    background: #2F3E53;
+    box-shadow:  5px 5px 11px #7e7272,
+                -5px -5px 11px #ffffff;
 }
 
 h1 span {
@@ -37,14 +43,14 @@ label, input, select {
 }
 
 input, select {
-    background: #2F3E53;
+    background: #273549;
     border: none;
     border-radius: 3px;
     padding: 5px;
 }
 
 #pass-btn {
-    margin: 30px 0 35px 0;
+    margin: 20px 0 25px 0;
     background: #10B981;
     padding: 10px 15px;
     color: #fff;
@@ -55,8 +61,8 @@ input, select {
 hr {
     height: 1px;
     border: none;
-    background-color: #2F3E53;
-    margin-bottom: 35px;
+    background-color: #1F2937;
+    margin-bottom: 25px;
 }
 
 /* Output section */
@@ -106,7 +112,7 @@ hr {
     filter: invert(72%) sepia(78%) saturate(2003%) hue-rotate(50deg) brightness(200%) contrast(99%);
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 499px) {
     #container {
         padding: 10px;
     }
@@ -116,6 +122,6 @@ hr {
     }
 
     .password {
-        width: 100%;
+        width: 70%;
     }
 }
