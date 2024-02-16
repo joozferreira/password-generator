@@ -1,42 +1,47 @@
-<html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <main id="container">
-            <h1>Generate a <br><span>random password</span></h1>
-            <p id="support">Never use an insecure password again.
-                <br>
-                Generate safe passwords from 10 to 25 characters!
-            </p>
-            <section id="settings">
-                <div id="pass-length">
-                    <label for="length">Length: </label>
-                    <input type="number" id="length" name="length" min="10" max="25" value="15">
-                </div>
-                <div id="pass-type">
-                    <label for="type">Type: </label>
-                    <select name="type" id="type">
-                        <option value="letters-numbers-symbols">Letters, numbers and symbols</option>
-                        <option value="letters-numbers">Letters and numbers</option>
-                        <option value="letters-symbols">Letters and symbols</option>
-                        <option value="letters">Letters only</option>
-                    </select>
-                </div>
-            </section>
-            <button id="pass-btn">Generate passwords</button>
-            <hr />
-            <section id="results">
-                <div class="password p1">
-                    <p id="pass-one" class="suggestion p1"></p>
-                    <img class="icon-hidden copy-icon p1" src="./copy-link-icon.svg" alt="copy icon">
-                </div>
-                <div class="password p2">
-                    <p id="pass-two" class="suggestion p2"></p>
-                    <img class="icon-hidden copy-icon p2" src="./copy-link-icon.svg" alt="copy icon">
-                </div>
-            </section>
-        </main>
-        <script src="index.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Pw Gener8</title>
+</head>
+<body>
+    <main id="container">
+        <h1>Generate a <br><span>random password</span></h1>
+        <p id="support">Never use an insecure password again.
+            <br>
+            Generate safe passwords from 10 to 25 characters!
+        </p>
+        <section id="settings">
+            <div id="pass-length">
+                <label for="length">Length: </label>
+                <input type="number" id="length" name="length" min="10" max="25" value="15">
+            </div>
+            <div id="pass-type">
+                <label for="type">Type: </label>
+                <select name="type" id="type">
+                    <option value="letters-numbers-symbols">Letters, numbers and symbols</option>
+                    <option value="letters-numbers">Letters and numbers</option>
+                    <option value="letters-symbols">Letters and symbols</option>
+                    <option value="letters">Letters only</option>
+                </select>
+            </div>
+        </section>
+        <button id="pass-btn">Generate passwords</button>
+        <hr />
+        <section id="results">
+            <div class="password p1">
+                <p id="pass-one" class="suggestion p1"></p>
+                <img class="icon-hidden copy-icon p1" src="./copy-link-icon.svg" alt="copy icon">
+            </div>
+            <div class="password p2">
+                <p id="pass-two" class="suggestion p2"></p>
+                <img class="icon-hidden copy-icon p2" src="./copy-link-icon.svg" alt="copy icon">
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
 </html>
