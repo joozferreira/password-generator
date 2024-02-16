@@ -3,6 +3,8 @@
 Aim of the project was to create a tool that generates two random passwords, given the length defined by the user and the type of characters (letter, numbers, symbols).
 Page built with HTML, CSS and Javascript.
 
+Deployed with Netlify on: https://pw-gener8.netlify.app/
+
 This project is part of the Frontend Career Path from Scrimba (https://scrimba.com/learn/frontend)
 
 ## About Scrimba
